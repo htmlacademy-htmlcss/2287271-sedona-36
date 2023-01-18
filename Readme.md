@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Anastaia Alisova](https://up.htmlacademy.ru/htmlcss/36/user/2287271).
-* Наставник: `Неизвестно`.
+* Наставник: [Дарья Магомедова](https://htmlacademy.ru/profile/id1443345).
 
 ---
 
