@@ -8,10 +8,10 @@
 
   <body>
     <header class="page-hader">
+      <a class="navigation-logo" href="index.html">
+        <img class="logo" src="images/logo.svg" width="140" height="70" alt="Логотип Седона">
+      </a>
       <nav class="navigation">
-        <a class="navigation-logo" href="index.html">
-          <img class="logo" src="" alt="Логотип Седона">
-        </a>
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
@@ -27,14 +27,14 @@
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">
-                Поиск
+                <img src="images/search.svg" width="44" height="64" alt="Лупа">
               </span>
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">
-                Избранное
+                <img src="images/heart.svg" width="18" height="17" alt="Избранное">
               </span>
             </a>
           </li>
@@ -46,15 +46,16 @@
     </header>
     <main class="main-index">
       <header class="index-header">
+        <img src="images/ФильтрCatalog.jpg" width="1200" height="412" alt="Фон фильтрации выбота гостиниц">
         <h1 class="index-header-title">Гостиницы Седоны</h1>
-        <ul class="breadcrumbs">
+        <ol class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class=" breadcrumbs-link" href="index.html">
               <span class="visually-hidden">Главная</span>
             </a>
           </li>
           <li class="breadcrumbs-item">Гостиницы</li>
-        </ul>
+        </ol>
       </header>
       <section class="catalog-products">
         <h2 class="visually-hidden">Фильтры для списка гостиниц</h2>
@@ -97,7 +98,8 @@
           <button class="button button-reset">Сбросить</button>
         </form>
         <section class="search">
-          <h3 class="search-results">Найдено гостиниц: 38</h3>
+          <h3 class="search-results">Найдено гостиниц:</h3>
+            <span class="search-result">38</span>
           <select class="select-control" aria-label="Сортировка">
             <option value="popular">Сначала популярные</option>
             <option value="cheap">Сначала дешевые</option>
@@ -116,7 +118,7 @@
         <ul class="product-list">
           <li class="product-card">
 
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="images/hotels/hotel-1.jpg" width="300" height="212" alt="Гостиница Amara Resort & Spa">
             <h3 class="product-card-title">Amara Resort & Spa</h3>
 
             <span class="product-type">Гостиница</span>
@@ -130,7 +132,7 @@
           </li>
           <li class="product-card">
 
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="images/hotels/hotel-2.jpg" width="300" height="212" alt="Гостиница Villas at Poco Diablo">
             <h3 class="product-card-title">Villas at Poco Diablo</h3>
 
             <span class="product-type">Гостиница</span>
@@ -144,7 +146,7 @@
           </li>
           <li class="product-card">
 
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="images/hotels/hotel-3.jpg" width="300" height="212" alt="Гостиница Desert Quail Inn">
             <h3 class="product-card-title">Desert Quail Inn</h3>
 
             <span class="product-type">Гостиница</span>
@@ -158,7 +160,7 @@
           </li>
           <li class="product-card">
 
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="images/hotels/hotel-4.jpg" width="300" height="212" alt="Гостиница GreenTree Inn">
             <h3 class="product-card-title">GreenTree Inn</h3>
 
             <span class="product-type">Гостиница</span>
