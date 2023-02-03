@@ -13,6 +13,7 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
+
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
@@ -20,17 +21,133 @@ body {
   background-color: #FFFFFF;
   color:#000000;
 }
+
 .page-header {
   background-color:#FFFFFF;
   color: #000000;
 }
+
 .navigation-link {
   font-family: "PT Sans", sans-serif;
-  Font size: 20px;
-  Line height: 24px;
+  font-size: 20px;
+  line-height: 24px;
   font-weight: 700;
   text-align: center;
   color: inherit;
   background-color: #FFFFFF;
   text-decoration: none;
+}
+
+.button-all {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 8px 50px;
+}
+.button-menue {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 8px 34px;
+
+}
+
+.hero {
+  background-image: url("../images/VectorUpsteirs.svg"), url("../images/index-background.jpg");
+  color:#FFFFFF;
+  background-color: #dae8f1;
+  background-size: 1200px auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+
+.subtitle {
+text-align: center;
+font-family: "PT Sans", sans-serif;
+}
+
+  .subtitle-heading {
+  font-size: 30px;
+  line-height: 36px;
+  font-style: bold;
+  text-transform: uppercase;
+}
+
+.subtitle-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-list {
+  text-align: center;
+  list-style: none;
+}
+
+.advantages-item-1 {
+  background-color: #82B3D3;
+}
+
+.advantages-item-2 {
+ background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-3 {
+  background-color: rgba(131, 179, 211, 0.2);
+ }
+
+.advantages-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.service-item-1 {
+ background-color: rgba(131, 179, 211, 0.12);
+}
+
+.service-list{
+  list-style: none;
+}
+
+.subscribe {
+  background-image: url(../images/Subscribe.jpg);
+  color:#FFFFFF;
+  background-color: #dae8f1;
+  background-size: 1200px auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.button-subscribe {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 8px 50px;
+}
+
+.pagination {
+  list-style: none;
 }
