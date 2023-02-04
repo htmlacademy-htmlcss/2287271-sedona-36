@@ -153,8 +153,18 @@ font-family: "PT Sans", sans-serif;
   background-image: url("../images/ФильтрCatalog.jpg");
   color:#FFFFFF;
   background-color: #dae8f1;
-  background-size: 1200px auto;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.product-list {
+  list-style: none;
+}
+
+.product-card {
+  border: solid 1px #E6E6E6;
+  border-radius: 4px;
+  margin: 20px;
 }
 
 .button-filter{
@@ -220,6 +230,7 @@ font-family: "PT Sans", sans-serif;
   text-align: center;
   padding: 11px 12px 23px 24px;
   text-decoration: none;
+  margin: 8px;
 }
 
 .pagination-link {
@@ -233,6 +244,7 @@ font-family: "PT Sans", sans-serif;
   text-align: center;
   padding: 11px 12px 23px 24px;
   text-decoration: none;
+  margin: 8px;
 }
 
 .pagination {
