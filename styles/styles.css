@@ -14,7 +14,28 @@
   font-display: swap;
 }
 
+html,
 body {
+ height: 100%;
+}
+
+/* .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin:0;
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
@@ -22,9 +43,32 @@ body {
   color:#000000;
 }
 
+.main-container {
+flex-grow: 1;
+}
+
 .page-header {
   background-color:#FFFFFF;
   color: #000000;
+}
+
+.navigation-logo {
+  width: 138px;
+}
+
+.page-nav{
+
+}
+
+.navigation {
+
+}
+
+.navigation-list {
+}
+
+.navigation-user {
+
 }
 
 .navigation-link {
@@ -51,6 +95,7 @@ body {
   border-radius: 4px;
   padding: 8px 50px;
 }
+
 .button-menue {
   font-family: inherit;
   font-size: 16px;
@@ -70,7 +115,7 @@ body {
   background-image: url("../images/VectorUpsteirs.svg"), url("../images/index-background.jpg");
   color:#FFFFFF;
   background-color: #dae8f1;
-  background-size: 1200px auto;
+  background-size: 100% auto;
   background-position: bottom;
   background-repeat: no-repeat;
 }
@@ -126,10 +171,12 @@ font-family: "PT Sans", sans-serif;
 }
 
 .subscribe {
+  font-family: inherit;
   background-image: url("../images/Subscribe.jpg");
   color:#FFFFFF;
   background-color: #dae8f1;
-  background-size: 1200px auto;
+  background-size: cover;
+  padding: 96px 258px 104px 258px;
   background-repeat: no-repeat;
   text-align: center;
 }
