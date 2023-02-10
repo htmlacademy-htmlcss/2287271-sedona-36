@@ -16,7 +16,19 @@
 
 html,
 body {
- height: 100%;
+ min-height: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.page-container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin:0 auto;
+  min-height: 100vh;
 }
 
 /* .visually-hidden {
@@ -35,12 +47,12 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  margin:0;
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   background-color: #FFFFFF;
   color:#000000;
+  min-height: 100vh;
 }
 
 .main-container {
@@ -52,23 +64,36 @@ flex-grow: 1;
   color: #000000;
 }
 
-.navigation-logo {
-  width: 138px;
-}
 
-.page-nav{
-
+.page-nav {
+display: flex;
+width: 1200px;
+margin: 0 auto;
 }
 
 .navigation {
-
+  display: flex;
+  flex-grow: 1;
 }
 
 .navigation-list {
+  display: flex;
+}
+
+.navigation-logo {
+  width: 138px;
+  margin-right: auto;
+}
+
+.navigation-list {
+  width: 450px;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-user {
-
+max-width: 300px;
+margin-left: auto;
 }
 
 .navigation-link {
@@ -81,6 +106,8 @@ flex-grow: 1;
   background-color: #FFFFFF;
   text-decoration: none;
 }
+
+
 
 .button-all {
   font-family: inherit;
@@ -96,7 +123,8 @@ flex-grow: 1;
   padding: 8px 50px;
 }
 
-.button-menue {
+.button-menu {
+  display: inline-block;
   font-family: inherit;
   font-size: 16px;
   line-height: 20px;
@@ -108,6 +136,7 @@ flex-grow: 1;
   text-transform: uppercase;
   border-radius: 4px;
   padding: 8px 34px;
+  min-width: 92px;
 
 }
 
@@ -118,6 +147,19 @@ flex-grow: 1;
   background-size: 100% auto;
   background-position: bottom;
   background-repeat: no-repeat;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.introduction {
+  display: block;
+  margin: 0 auto;
+  padding: 51px 371px 82px 371px;
+  width: 458px;
+  height: 352px;
 }
 
 
@@ -133,14 +175,30 @@ font-family: "PT Sans", sans-serif;
   text-transform: uppercase;
 }
 
+.main-title {
+  width: 620px;
+  text-align: center;
+}
+
 .subtitle-text {
   font-size: 22px;
   line-height: 26px;
 }
 
 .advantages-list {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
   text-align: center;
   list-style: none;
+  padding: 0;
+  height: 385px;
+}
+
+.advantages-item {
+  padding: 102px 85px;
+  min-width: 400px;
+  min-height: 385px;
 }
 
 .advantages-item-1 {
@@ -160,14 +218,27 @@ font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  max-width: 230px;
+  max-height: 181px;
 }
+
 
 .service-item-1 {
  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .service-list{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  height: 385px;
   list-style: none;
+}
+
+.service-item {
+  padding: 81px 85px;
+  min-width: 230px;
+  min-height: 223px;
 }
 
 .subscribe {
@@ -204,11 +275,21 @@ font-family: "PT Sans", sans-serif;
   background-repeat: no-repeat;
 }
 
+.catalog-filter {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .product-list {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
   list-style: none;
 }
 
 .product-card {
+  padding: 20px;
   border: solid 1px #E6E6E6;
   border-radius: 4px;
   margin: 20px;
@@ -227,6 +308,8 @@ font-family: "PT Sans", sans-serif;
   border-radius: 4px;
   padding: 8px 50px;
 }
+
+
 .button-brown {
   font-family: inherit;
   font-size: 16px;
@@ -295,11 +378,52 @@ font-family: "PT Sans", sans-serif;
 }
 
 .pagination {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
   list-style: none;
 }
 
+.pagination-item {
+  margin: 8px;
+  width: 60px;
+  height: 60px;
+  padding: 11px 24px 12px 23px;
+}
+
 .subscribe-catalog {
- text-align: center;
+  width: 1200px;
+  height: 415px;
+  padding: 96px 258px 104px 258px;
+  text-align: center;
+}
+
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 70px 30px 70px;
+}
+
+.footer-social-list {
+  display: flex;
+  list-style: none;
+}
+
+
+.footer-social {
+  width: 142px;
+  margin-right: 41,5px;
+}
+
+.phone {
+  width: 720px;
+  margin: auto;
+  padding: 40px 226,5px 30px 253,5px;
+}
+.navigation-logo-html {
+  margin-left: auto;
+  max-width: 115px;
 }
 
 .phone {
