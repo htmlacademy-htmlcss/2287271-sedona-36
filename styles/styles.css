@@ -489,12 +489,21 @@ margin-bottom: 8px;
 
 .footer-social-list {
   display: flex;
-  list-style: none;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social-item {
+  width: 47px;
+  height: 40px;
+  margin: 0;
 }
 
 
 .footer-social {
-  width: 142px;
+  max-width: 150px;
   margin-right: 41,5px;
 }
 
